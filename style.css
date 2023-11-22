@@ -1,0 +1,38 @@
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+.header {
+  background-color: goldenrod;
+}
+.header__title {
+  margin: 0;
+}
+.date__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task__list {
+  height: 300px;
+  padding: 0;
+}
+.task-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+.date__content {
+  background-color: bisque;
+}
+.task-list-buttondelete img {
+  pointer-events: none;
+}
+.task-list-button img {
+  pointer-events: none;
+}
+.task-title--done {
+  text-decoration: line-through;
+  color: #cdcdcd;
+}

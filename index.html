@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>to do list</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">To Do List</h1>
+      </header>
+      <main>
+        <section class="date__content">
+          <p class="date__name">date</p>
+          <button class="date__button">кнопка</button>
+        </section>
+        <div class="task__content">
+          <ul id="tasksList" class="task__list">
+            <!-- <li class="task-list-item">
+              <span class="task-title">Купить хлеб</span>
+              <div class="task-item__buttons">
+                <button data-action="done" class="task-list-button">
+                  <img src="/img/icons8-ок-20.svg" alt="ok" />
+                </button>
+                <button data-action="delete" class="task-list-buttondelete">
+                  <img src="/img/icons8-мусор-20.svg" alt="delete" />
+                </button>
+              </div>
+            </li> -->
+          </ul>
+          <section class="task__box">
+            <form id="form" action="input">
+              <input id="taskInput" type="text" class="task__input" />
+              <button class="task__button">добавить</button>
+            </form>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
